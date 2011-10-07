@@ -147,10 +147,6 @@ a:focus {
 	position: fixed;
 	top: 10px;
 }
-#content .content-inner hr {
-    border-color: #999;
-    margin-bottom: 3em;
-}
 
 /*LAVALAMP MENU START*/
 .lavalamp {
