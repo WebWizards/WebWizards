@@ -48,7 +48,7 @@ a:focus {
 }
 #content .top-slider {
 	float:left;
-	width:900px; 
+	width:900px;
 	height:250px;
 	position:relative;
 	margin:10px 5px 30px 5px;
@@ -78,7 +78,7 @@ a:focus {
 	margin:8px 15px 0 15px;
 	border:4px solid #E7E5E9;
 	display:block;
-	width:80px; 
+	width:80px;
 	background:url("http://www.gravatar.com/avatar/38724afecdd465e2b8bb03e7a2d06176.jpg") no-repeat;
 }
 #content .uber{
@@ -87,7 +87,7 @@ a:focus {
 	margin:8px 15px 0 15px;
 	display:block;
 	border:4px solid #E7E5E9;
-	width:80px; 
+	width:80px;
 	background:url("http://www.gravatar.com/avatar/ede194ad58e859be764905ea4f120bda.jpg") no-repeat;
 }
 #content .master{
@@ -96,7 +96,7 @@ a:focus {
 	border:4px solid #E7E5E9;
 	margin:8px 15px 0 15px;
 	display:block;
-	width:80px; 
+	width:80px;
 	background:url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd.jpg") no-repeat;
 }
 #content .portfolio {
@@ -108,12 +108,11 @@ a:focus {
 	margin:10px 5px 30px 5px;
 }
 #content .contact {
-	float:left;
-	width:885px; 
+	width:885px;
 	height:220px;
 	position:relative;
-	padding:2px;
-	margin:10px 5px 30px 5px;
+	padding:2px 0 0 0;
+	margin:10px 5px 80px 5px;
 }
 #content .contact input{
 	margin:13px 0 6px 8px;
@@ -137,16 +136,20 @@ a:focus {
 	margin:15px 0 7px 8px;
 }
 #content .contact span{
-	color:#71C08B;
+	color:#e10c3e;
 	font-size:15px;
-	margin:0 4px; 
+	margin:0 4px;
 }
-#menu {  
-	position: relative;  
+#menu {
+	position: relative;
 }
-#menu.fixed {  
-	position: fixed;  
+#menu.fixed {
+	position: fixed;
 	top: 10px;
+}
+#content .content-inner hr {
+    border-color: #999;
+    margin-bottom: 3em;
 }
 
 /*LAVALAMP MENU START*/
