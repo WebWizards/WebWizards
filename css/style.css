@@ -42,23 +42,23 @@ a:focus {
 	height:auto;
 	margin-bottom:10px;
 }
-#content .content-inner {
+#content {
 	width:900px;
 	margin:10px auto;
 	padding:0 10px;
 }
-#content .top-slider {
+header {
 	float:left;
 	width:900px;
 	height:250px;
 	position:relative;
 	margin:10px 5px 30px 5px;
 }
-#content .top-slider .link{
+header .link{
 	color: #E9E5E7;
 	border-bottom:1px solid #a3a6af;
 }
-#content .top-slider .link:hover {
+header .link:hover {
 	border:none;
 }
 #content h1{
