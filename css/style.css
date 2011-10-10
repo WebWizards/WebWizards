@@ -5,6 +5,7 @@
 }
 body {
     width: 90%;
+    min-width: 50em;
     margin: 1em auto;
     background-color: #062851;
 }
@@ -68,6 +69,7 @@ header #slider {
     display: block;
     clear: both;
     width: 90%;
+    min-width: 50em;
 }
 #menu.abs {
     position: absolute;
