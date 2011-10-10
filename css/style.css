@@ -153,7 +153,7 @@ ul.lavaLamp li a {
     background:url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd.jpg") no-repeat;
 }
 
-#content .portfolio {
+#portfolio {
     float: left;
     width: 900px;
     border: 1px solid #fafafa;
