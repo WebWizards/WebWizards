@@ -22,14 +22,15 @@
         <script type="text/javascript" src="js/jquery.easing.min.js"></script>
         <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
         <script type="text/javascript">
-            $(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700 })});
+        $(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700 })});
         </script>
         <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
     </head>
     <body id="top">
-        <div id="content">
+        <section>
 
-            <header>
+        <header>
+        <div class="content">
             <noscript>To fully experience this site please activate javascript. Check the instructions for your browser <a href="http://www.activatejavascript.org/" class="link">here</a>.</noscript>
             <div class="slider-wrapper theme-default">
                 <div id="slider" class="nivoSlider">
@@ -42,70 +43,105 @@
                     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
                 </div>
             </div>
-            </header>
-
-            <div id="menu">
-                <ul class="lavaLamp">
-                    <li><a href="#top">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portofolio">Portofolio</a></li>
-                    <li><a href="#prices">Prices</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div id="about">
-                <h1>About WebWizards</h1>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-                <h1>Who Are We?</h1>
-                <div class="cookie"></div>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-                <div class="uber"></div>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-                <div class="master"></div>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-                <h1>Portfolio</h1>
-            </div>
-
-            <div id="portofolio">
-            </div>
-
-            <div id="prices">
-                <h1>Pricelist</h1>
-                <p>Prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices </p>
-            </div>
-
-            <div id="contact">
-                <h1>Contact</h1>
-                <form action="" method="POST" id="contactForm" name="contactForm">
-                    <label for="name">Name<span>*</span></label>
-                    <input type="text" id="name" name="entry.0.single" value="" size="40" maxlength="60">
-                    <br>
-
-                    <label for="email">Email<span>*</span></label>
-                    <input type="text" id="email" name="entry.1.single" value="" size="40" maxlength="60"> <br/>
-
-                    <label for="msg">Message</label><br/>
-                    <textarea id="msg" name="entry.2.single" rows="6" cols="60"></textarea>
-                    <br>
-
-                    <input type="hidden" name="pageNumber" value="0">
-                    <input type="hidden" name="backupCache" value="">
-
-                    <input id="submit" type="submit" name="submit" value="Send">
-                    <input id="reset" type="reset" value="Reset">
-                    <br>
-
-                    <span>*</span> Required fields
-                </form>
-            </div>
-
-            <div id="footer">
-            </div>
         </div>
-        <!-- Slider Code -->
+        </header>
+
+        <section id="menu">
+        <div class="content">
+            <nav id="menu">
+            <ul class="lavaLamp">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#prices">Prices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+        </section>
+
+        <section id="about">
+        <div class="content">
+
+            <article>
+            <h1>About WebWizards</h1>
+            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+            </article>
+
+            <article>
+            <h1>Who Are We?</h1>
+
+            <figure id="cookie" class="image">
+            </figure>
+            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+
+            <figure id="uber" class="image">
+            </figure>
+            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+
+            <figure id="master" class="image">
+            </figure>
+            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+            </article>
+        </div>
+        </section>
+
+        <section id="portofolio">
+        <div class="content">
+            <article>
+            <h1>Portfolio</h1>
+            <p>moar slider</p>
+            </article>
+        </div>
+        </section>
+
+        <section id="prices">
+        <div class="content">
+            <article>
+            <h1>Pricelist</h1>
+            <p>Prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices </p>
+            </article>
+        </div>
+        </section>
+
+        <section id="contact">
+        <div class="content">
+            <article>
+            <h1>Contact</h1>
+            <form action="" method="POST" id="contactForm" name="contactForm">
+                <label for="name">Name<span>*</span></label>
+                <input type="text" id="name" name="entry.0.single" value="" size="40" maxlength="60">
+                <br>
+
+                <label for="email">Email<span>*</span></label>
+                <input type="text" id="email" name="entry.1.single" value="" size="40" maxlength="60"> <br/>
+
+                <label for="msg">Message</label><br/>
+                <textarea id="msg" name="entry.2.single" rows="6" cols="60"></textarea>
+                <br>
+
+                <input type="hidden" name="pageNumber" value="0">
+                <input type="hidden" name="backupCache" value="">
+
+                <input id="submit" type="submit" name="submit" value="Send">
+                <input id="reset" type="reset" value="Reset">
+                <br>
+
+                <span>*</span> Required fields
+            </form>
+            </article>
+        </div>
+        </section>
+
+        <footer>
+        <div class="content">
+        </div>
+        </footer>
+
+        </section>
+
         <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
         <script type="text/javascript">$(window).load(function(){$('#slider').nivoSlider();});</script>
-        <!-- Google Analytics code -->
+
     </body>
 </html>

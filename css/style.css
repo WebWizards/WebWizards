@@ -3,28 +3,16 @@
     padding: 0;
 }
 body {
-    font: 14px/26px "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
-    background-color: #062851;
-    color: #E7E5E9;
-}
-a {
-    text-decoration: none;
-}
-a:active {
-    outline: none;
-}
-a:focus {
-    outline: none;
-}
-img {
-    border: none;
-}
-
-#content {
     width: 90%;
     margin: 10px auto 10px auto;
+    background-color: #062851;
 }
-#content h1 {
+
+.content {
+    color: #E7E5E9;
+    font: 14px/26px "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
+}
+.content h1 {
     font-size: 22px;
     font-weight: bold;
     font-variant: small-caps;
@@ -33,10 +21,22 @@ img {
     text-align: left;
     margin: 1em 0.75em 1em 0.75em;
 }
-#content p {
+.content p {
     font-size: 15px;
     text-indent: 1em;
     margin: 1em 0.75em 1em 0.75em;
+}
+.content img {
+    border: none;
+}
+.content a {
+    text-decoration: none;
+}
+.content a:active {
+    outline: none;
+}
+.content a:focus {
+    outline: none;
 }
 
 header {
@@ -53,14 +53,14 @@ header .link{
 header .link:hover {
     border: none;
 }
-noscript {
+header noscript {
     text-align: center;
     font-size: 19px;
     line-height: 230px;
     margin: 30px;
 }
 
-ul.lavaLamp {
+nav ul.lavaLamp {
     list-style-type: none;
     position: relative;
     height: 20px;
@@ -75,13 +75,13 @@ ul.lavaLamp {
     -moz-border-radius: 10px;
     background: -moz-gradient(linear, left top, left bottom, from(#888), to(#262626));
 }
-ul.lavaLamp li {
+nav ul.lavaLamp li {
     list-style: none;
     float: left;
     margin-left: 15px;
     text-align: center;
 }
-ul.lavaLamp li.back {
+nav ul.lavaLamp li.back {
     background: url("../img/itembg.png") no-repeat right -30px;
     width: 9px;
     height: 26px;
@@ -92,7 +92,7 @@ ul.lavaLamp li.back {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
 }
-ul.lavaLamp li.back .left {
+nav ul.lavaLamp li.back .left {
     background: url("../img/itembg.png") no-repeat top left;
     height: 26px;
     margin-right: 9px;
@@ -100,7 +100,7 @@ ul.lavaLamp li.back .left {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
 }
-ul.lavaLamp li:hover {
+nav ul.lavaLamp li:hover {
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -108,7 +108,7 @@ ul.lavaLamp li:hover {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
 }
-ul.lavaLamp li a {
+nav ul.lavaLamp li a {
     position: relative; overflow: hidden;
     float: left;
     display: block;
@@ -125,109 +125,94 @@ ul.lavaLamp li a {
     color: #fff;
 }
 
-#content .cookie{
-    height:80px;
-    float:left;
-    margin:8px 15px 0 15px;
-    border:4px solid #E7E5E9;
-    display:block;
-    width:80px;
-    background:url("http://www.gravatar.com/avatar/38724afecdd465e2b8bb03e7a2d06176.jpg") no-repeat;
-}
-#content .uber{
-    height:80px;
-    float:left;
-    margin:8px 15px 0 15px;
-    display:block;
-    border:4px solid #E7E5E9;
-    width:80px;
-    background:url("http://www.gravatar.com/avatar/ede194ad58e859be764905ea4f120bda.jpg") no-repeat;
-}
-#content .master{
-    height:80px;
-    float:left;
-    border:4px solid #E7E5E9;
-    margin:8px 15px 0 15px;
-    display:block;
-    width:80px;
-    background:url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd.jpg") no-repeat;
-}
-
-#portfolio {
+figure.image {
+    height: 80px;
+    width: 80px;
     float: left;
-    width: 900px;
-    border: 1px solid #fafafa;
-    height: 150px;
-    position: relative;
-    margin: 10px 5px 30px 5px;
+    display: block;
+    margin: 8px 15px 0 15px;
+    border: 4px solid #E7E5E9;
+}
+figure#cookie {
+    background: url("http://www.gravatar.com/avatar/38724afecdd465e2b8bb03e7a2d06176.jpg") no-repeat;
+}
+figure#uber {
+    background: url("http://www.gravatar.com/avatar/ede194ad58e859be764905ea4f120bda.jpg") no-repeat;
+}
+figure#master {
+    background: url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd.jpg") no-repeat;
 }
 
-#content .contact {
-    width:885px;
-    height:220px;
-    position:relative;
-    padding:2px 0 0 0;
-    margin:10px 5px 80px 5px;
+#portofolio p {
+    border: 1px solid #fafafa;
 }
-#content .contact input{
-    margin:13px 0 6px 8px;
-    padding:1px 3px;
-    font-size:13px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+
+#contact {
+    width: 885px;
+    height: 220px;
+    position: relative;
+    padding: 2px 0 0 0;
+    margin: 10px 5px 80px 5px;
 }
-#content .contact textarea{
-    margin:5px 40px 5px 8px;
-    clear:both;
-    font-size:13px;
-    padding:4px;
-    max-width:885px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+#contact input {
+    margin: 13px 0 6px 8px;
+    padding: 1px 3px;
+    font-size: 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-#content .contact label{
-    margin:15px 0 7px 8px;
+#contact textarea {
+    margin: 5px 40px 5px 8px;
+    clear: both;
+    font-size: 13px;
+    padding: 4px;
+    max-width: 885px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
-#content .contact span{
-    color:#e10c3e;
-    font-size:15px;
-    margin:0 4px;
+#contact label {
+    margin: 15px 0 7px 8px;
 }
-#footer {
-    padding:5px;
-    height:40px;
+#contact span {
+    color: #e10c3e;
+    font-size: 15px;
+    margin: 0 4px;
+}
+
+footer {
+    padding-bottom: 65px;
 }
 
 .magenta {
-    background : rgb(190,64,120);
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
-    background : -moz-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
+    background: rgb(190,64,120);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
+    background: -moz-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
     border: 1px solid #841144;
 }
 .cyan {
-    background : rgb(64,181,197);
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
-    background : -moz-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
+    background: rgb(64,181,197);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
+    background: -moz-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
     border: 1px solid #2f8893;
 }
 .yellow {
-    background : rgb(255,199,79);
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
-    background : -moz-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
+    background: rgb(255,199,79);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
+    background: -moz-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
     border: 1px solid #c08c1f;
 }
 .orange {
-    background : rgb(255,133,64);
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
-    background : -moz-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
+    background: rgb(255,133,64);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
+    background: -moz-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
     border: 1px solid #c04f11;
 }
 .dark {
-    background : rgb(89,89,89);
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
-    background : -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    background: rgb(89,89,89);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
+    background: -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
     border: 1px solid #272727;
 }
 .magenta li a , .cyan li a, .yellow li a , .orange li a, .dark li a{
