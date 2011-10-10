@@ -23,6 +23,7 @@ body {
 }
 .content p {
     text-indent: 1em;
+    text-align: justify;
     margin: 1em 0.75em 1em 0.75em;
 }
 .content img {
@@ -57,10 +58,23 @@ header .link:hover {
 header .slider-wrapper {
     margin: 0 auto;
     width: 618px;
-    background: url(images/loading.gif) no-repeat 50% 50%;
+    background: url(nivo_theme_default/loading.gif) no-repeat 50% 50%;
 }
 header #slider {
     height: 246px;
+}
+
+#menu {
+    display: block;
+    clear: both;
+    width: 90%;
+}
+#menu.abs {
+    position: absolute;
+}
+#menu.fixed {
+    position: fixed;
+    top: 0;
 }
 
 nav ul.lavaLamp {
@@ -128,6 +142,9 @@ nav ul.lavaLamp li a {
     color: #fff;
 }
 
+#about {
+    padding-top: 3em;
+}
 #about ul.imagetxt {
     list-style-type: none;
     display: block;
@@ -195,38 +212,4 @@ figure#master {
 
 footer {
     padding-bottom: 5em;
-}
-
-.magenta {
-    background: rgb(190,64,120);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
-    background: -moz-gradient(linear, left top, left bottom, from(rgb(190,64,120)), to(rgb(177,24,91)));
-    border: 1px solid #841144;
-}
-.cyan {
-    background: rgb(64,181,197);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
-    background: -moz-gradient(linear, left top, left bottom, from(rgb(64,181,197)), to(rgb(7,165,187)));
-    border: 1px solid #2f8893;
-}
-.yellow {
-    background: rgb(255,199,79);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
-    background: -moz-gradient(linear, left top, left bottom, from(rgb(255,199,79)), to(rgb(255,188,43)));
-    border: 1px solid #c08c1f;
-}
-.orange {
-    background: rgb(255,133,64);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
-    background: -moz-gradient(linear, left top, left bottom, from(rgb(255,133,64)), to(rgb(255,107,24)));
-    border: 1px solid #c04f11;
-}
-.dark {
-    background: rgb(89,89,89);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
-    background: -moz-gradient(linear, left top, left bottom, from(rgb(89,89,89)), to(rgb(54,54,54)));
-    border: 1px solid #272727;
-}
-.magenta li a , .cyan li a, .yellow li a , .orange li a, .dark li a{
-    color: #fff;
 }
