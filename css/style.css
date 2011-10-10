@@ -128,11 +128,20 @@ nav ul.lavaLamp li a {
     color: #fff;
 }
 
+#about ul.imagetxt {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 2em;
+}
+#about ul.imagetxt li {
+    height: 85px;
+}
+
 figure.image {
-    height: 80px;
-    width: 80px;
     float: left;
     display: block;
+    height: 80px;
+    width: 80px;
     margin: 8px 15px 0 15px;
     border: 4px solid #E7E5E9;
 }
