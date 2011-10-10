@@ -18,7 +18,12 @@
         <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/default_slider/default.css" type="text/css" media="screen" />
 
-        <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+        <script type="text/javascript">
+            $(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700 })});
+        </script>
         <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
     </head>
 
@@ -40,21 +45,16 @@
             </div>
             </header>
 
-            <!-- MENU -->
             <div id="menu">
-                <div class="lavalamp dark">
-                    <ul >
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">Item1</a></li>
-                        <li><a href="">Item2</a></li>
-                        <li><a href="">Item3</a></li>
-                        <li><a href="">Item4</a></li>
-                        <li><a href="">Item5</a></li>
-                        <li><a href="">Item6</a></li>
-                        <li><a href="">Item7</a></li>
-                    </ul>
-                </div>
+                <ul class="lavaLamp">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#prices">Prices</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
+
             <div class="clear"> </div>
             <h1>About WebWizards</h1>
             <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
