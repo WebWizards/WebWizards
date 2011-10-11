@@ -8,13 +8,10 @@ body {
     min-width: 50em;
     margin: 1em auto;
     background-color: #062851;
-}
-
-.content {
     color: #E7E5E9;
     font: 1em "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
 }
-.content h1 {
+h1 {
     font-size: 1.75em;
     font-weight: bold;
     font-variant: small-caps;
@@ -22,6 +19,10 @@ body {
     letter-spacing: 1px;
     margin: 1em 0.75em 1em 0.75em;
 }
+p {
+    margin: .5em 0 .5em 0;
+}
+
 .content p {
     text-indent: 1em;
     text-align: justify;
@@ -100,6 +101,9 @@ nav ul.lavaLamp li {
     margin-left: 15px;
     text-align: center;
 }
+nav ul.lavaLamp li.langs {
+    float: right;
+}
 nav ul.lavaLamp li.back {
     background: url("../img/itembg.png") no-repeat right -30px;
     width: 9px;
@@ -143,8 +147,6 @@ nav ul.lavaLamp li a {
     text-align: center;
     color: #fff;
 }
-
-nav ul.lavaLamp li.langs { float: right; }
 
 #about {
     padding-top: 3em;
@@ -215,5 +217,5 @@ figure#master {
 }
 
 footer {
-    padding-bottom: 5em;
+    padding: 3em 0;
 }
