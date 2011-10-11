@@ -144,6 +144,8 @@ nav ul.lavaLamp li a {
     color: #fff;
 }
 
+nav ul.lavaLamp li.langs { float: right; }
+
 #about {
     padding-top: 3em;
 }

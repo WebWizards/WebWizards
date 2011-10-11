@@ -27,8 +27,12 @@
 
         <script src="js/menuscroll.js" type="text/javascript"></script>
         <script type="text/javascript" charset="utf-8" src="js/contact.js"></script>
+        
+        <script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+		<script src="js/langpack/el.js" charset="utf-8" type="text/javascript"></script>
+        <script src="js/init-jquery-lang.js" charset="utf-8" type="text/javascript"></script>
     </head>
-    <body id="top">
+    <body id="top">					
         <section>
 
         <header>
@@ -57,11 +61,13 @@
         <div class="content">
             <nav id="menubar">
             <ul class="lavaLamp">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portofolio">Portofolio</a></li>
-                <li><a href="#prices">Prices</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top" lang="en">Home</a></li>
+                <li><a href="#about" lang="en">About</a></li>
+                <li><a href="#portofolio" lang="en">Portofolio</a></li>
+                <li><a href="#prices" lang="en">Prices</a></li>
+                <li><a href="#contact" lang="en">Contact</a></li>
+                <li class="langs"><a href="#lang-en" onclick="window.lang.change('el');">Greek</a></li>
+                <li class="langs"><a href="#lang-en" onclick="window.lang.change('en');">English</a></li>
             </ul>
             </nav>
         </div>
@@ -71,22 +77,22 @@
         <div class="content">
 
             <article>
-            <h1>About WebWizards</h1>
-            <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+            <h1 lang="en">About WebWizards</h1>
+            <p lang="en">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
             </article>
 
             <article>
-            <h1>Who Are We?</h1>
+            <h1 lang="en">Who Are We?</h1>
 
             <ul class="imagetxt">
                 <li><figure id="cookie" class="image"></figure>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
+                <p lang="en">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
 
                 <li><figure id="uber" class="image"></figure>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
+                <p lang="en">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
 
                 <li><figure id="master" class="image"></figure>
-                <p>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
+                <p lang="en">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></li>
             </ul>
             </article>
         </div>
@@ -95,7 +101,7 @@
         <section id="portofolio">
         <div class="content">
             <article>
-            <h1>Portfolio</h1>
+            <h1 lang="en">Portfolio</h1>
             <p>moar slider</p>
             </article>
         </div>
@@ -104,8 +110,8 @@
         <section id="prices">
         <div class="content">
             <article>
-            <h1>Pricelist</h1>
-            <p>Prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices </p>
+            <h1 lang="en">Pricelist</h1>
+            <p lang="en">Prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices prices</p>
             </article>
         </div>
         </section>
@@ -113,27 +119,27 @@
         <section id="contact">
         <div class="content">
             <article>
-            <h1>Contact</h1>
+            <h1 lang="en">Contact</h1>
             <form action="" method="POST" id="contactForm" name="contactForm">
-                <label for="name">Name<span>*</span></label>
+                <label for="name" lang="en">Name<span>*</span></label>
                 <input type="text" id="name" name="entry.0.single" value="" size="40" maxlength="60">
                 <br>
 
-                <label for="email">Email<span>*</span></label>
+                <label for="email" lang="en">Email<span>*</span></label>
                 <input type="text" id="email" name="entry.1.single" value="" size="40" maxlength="60"> <br/>
 
-                <label for="msg">Message</label><br/>
+                <label for="msg" lang="en">Message</label><br/>
                 <textarea id="msg" name="entry.2.single" rows="6" cols="60"></textarea>
                 <br>
 
                 <input type="hidden" name="pageNumber" value="0">
                 <input type="hidden" name="backupCache" value="">
-
-                <input id="submit" type="submit" name="submit" value="Send">
-                <input id="reset" type="reset" value="Reset">
+				
+				<input id="submit" type="submit" name="submit" value="Send" lang="en">
+                <input id="reset" type="reset" value="Reset">                
                 <br>
 
-                <span>*</span> Required fields
+                <p lang="en"><span>*</span> Required fields</p>
             </form>
             </article>
         </div>
