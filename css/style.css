@@ -20,13 +20,13 @@ h1 {
     margin: 1em 0.75em 1em 0.75em;
 }
 p {
-    margin: .5em 0 .5em 0;
+    margin: .5em 0;
 }
 
 .content p {
     text-indent: 1em;
     text-align: justify;
-    margin: 1em 0.75em 1em 0.75em;
+    margin: 1em .75em;
 }
 .content img {
     border: none;
@@ -182,38 +182,26 @@ figure#master {
     border: 1px solid #fafafa;
 }
 
-#contact {
-    width: 885px;
-    height: 220px;
-    position: relative;
-    padding: 2px 0 0 0;
-    margin: 10px 5px 80px 5px;
-}
-#contact input {
-    margin: 13px 0 6px 8px;
-    padding: 1px 3px;
-    font-size: 13px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-#contact textarea {
-    margin: 5px 40px 5px 8px;
-    clear: both;
-    font-size: 13px;
-    padding: 4px;
-    max-width: 885px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
 #contact label {
-    margin: 15px 0 7px 8px;
+    font-style: italic;
+    font-weight: bold;
 }
-#contact span {
+#contact label, #contact input {
+    font-size: 90%;
+}
+#contact input, #contact textarea {
+    margin: .25em 0 0 1em;
+    padding: .25em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#contact input#submit, #contact input#reset {
+    margin: 0 1em 0 0;
+    padding: .25em .5em;
+}
+#contact span.req {
     color: #e10c3e;
-    font-size: 15px;
-    margin: 0 4px;
 }
 
 footer {

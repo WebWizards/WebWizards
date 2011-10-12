@@ -117,45 +117,49 @@
         </section>
 
         <section id="contact">
-        <h1 lang="en">Contact</h1>
-        <form action="" method="POST" id="contactForm" name="contactForm">
-            <section id="name-form">
-            <p>
-            <label for="name" lang="en">Name<span>*</span></label>
-            <input type="text" id="name" name="entry.0.single" value="" size="40" maxlength="60">
-            </p>
-            </section>
+        <div class="content">
+            <article>
+            <h1 lang="en">Contact</h1>
+            <form action="" method="POST" id="contactForm" name="contactForm">
+                <section id="form-fields">
+                <section id="form-name">
+                <p>
+                <label for="name" lang="en">Name <span class="req">*</span></label>
+                <input type="text" id="name" name="entry.0.single" value="" size="41" maxlength="50">
+                </p>
+                </section>
 
-            <section id="email-form">
-            <p>
-            <label for="email" lang="en">Email<span>*</span></label>
-            <input type="text" id="email" name="entry.1.single" value="" size="40" maxlength="60"> <br/>
-            </p>
-            </section>
+                <section id="form-email">
+                <p>
+                <label for="email" lang="en">Email <span class="req">*</span></label>
+                <input type="text" id="email" name="entry.1.single" value="" size="41" maxlength="50"> <br/>
+                </p>
+                </section>
 
-            <section id="message-form">
-            <p>
-            <label for="msg" lang="en">Message</label><br/>
-            <textarea id="msg" name="entry.2.single" rows="6" cols="60"></textarea>
-            </p>
-            </section>
+                <section id="form-msg">
+                <p>
+                <label for="msg" lang="en">Message </label><br/>
+                <textarea id="msg" name="entry.2.single" rows="8" cols="50"></textarea>
+                </p>
+                </section>
 
-            <input type="hidden" name="pageNumber" value="0">
-            <input type="hidden" name="backupCache" value="">
+                <input type="hidden" name="pageNumber" value="0">
+                <input type="hidden" name="backupCache" value="">
 
-            <section id="buttons-form">
-            <p>
-            <input id="submit" type="submit" name="submit" value="Send" lang="en">
-            <input id="reset" type="reset" value="Reset">
-            </p>
-            </section>
+                <section id="form-buttons">
+                <p>
+                <input id="submit" type="submit" name="submit" value="Send" lang="en">
+                <input id="reset" type="reset" value="Clear">
+                </p>
+                </section>
 
-            <section id="required-form">
-            <p lang="en">
-            <span>*</span> Required fields
-            </p>
-            </section>
-        </form>
+                <section id="form-req">
+                <p lang="en"><span class="req">*</span> Required fields</p>
+                </section>
+                </section>
+            </form>
+            </article>
+        </div>
         </section>
 
         <footer>
