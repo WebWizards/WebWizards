@@ -5,7 +5,6 @@
 }
 body {
     width: 90%;
-    min-width: 50em;
     background-color: #062851;
     color: #E7E5E9;
     font: 1em "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
@@ -74,7 +73,7 @@ header #slider {
     display: block;
     clear: both;
     width: 90%;
-    min-width: 50em;
+    min-width: 39em;
 }
 #menu.abs {
     position: absolute;
