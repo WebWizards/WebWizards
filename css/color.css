@@ -1,0 +1,129 @@
+* {
+   
+}
+body {
+    background-color:#e6e6e6;
+	color: #1C140D;
+}
+h1 {
+    
+}
+p {
+    
+}
+
+.content h1 {
+    
+}
+.content p {
+    
+}
+.content img {
+}
+.content a {
+    
+}
+.content a:active {
+    
+}
+.content a:focus {
+    
+}
+
+noscript p {
+    
+}
+
+header {
+    background-color: #CBE86B;
+	border-left:2px ridge #F2E9E1;
+	border-right:2px ridge #F2E9E1;
+	border-bottom:2px ridge #F2E9E1;
+}
+header .link{
+    
+}
+header .link:hover {
+    
+}
+header .slider-wrapper {
+    
+}
+header #slider {
+    
+}
+#menu {
+
+}
+#menu.abs {
+    
+}
+#menu.fixed {
+    
+}
+
+nav ul.lavaLamp {
+    border: 1px solid #CBE86B;
+}
+nav ul.lavaLamp li {
+    
+}
+nav ul.lavaLamp li.langs {
+    
+}
+nav ul.lavaLamp li.back {
+    
+}
+nav ul.lavaLamp li.back .left {
+    
+}
+nav ul.lavaLamp li:hover {
+    
+}
+nav ul.lavaLamp li a {
+    
+}
+
+#about ul.imagetxt {
+    
+}
+#about ul.imagetxt li {
+    
+}
+#about ul.imagetxt li figure.image {
+    border: 4px ridge #CBE86B;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+figure#cookie {
+}
+figure#uber {
+}
+figure#master {
+}
+
+#portofolio p {
+    
+}
+
+#contact label {
+    
+}
+#contact label, #contact input {
+    
+}
+#contact input, #contact textarea {
+    
+}
+#contact input#submit, #contact input#reset {
+    
+}
+#contact span.req {
+    
+}
+
+footer {
+   
+}
