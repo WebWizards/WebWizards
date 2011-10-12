@@ -6,27 +6,31 @@
 body {
     width: 90%;
     min-width: 50em;
-    margin: 1em auto;
     background-color: #062851;
     color: #E7E5E9;
     font: 1em "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
+    margin: 0 auto;
+    padding-top: .5em;
 }
 h1 {
     font-size: 1.75em;
     font-weight: bold;
-    font-variant: small-caps;
     font-family: monospace;
-    letter-spacing: 1px;
-    margin: 1em 0.75em 1em 0.75em;
 }
 p {
     margin: .5em 0;
 }
 
+.content h1 {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    margin: 0 0.75em 0 0.75em;
+    padding-top: 2.25em;
+}
 .content p {
     text-indent: 1em;
     text-align: justify;
-    margin: 1em .75em;
+    margin: 1em .75em 0;
 }
 .content img {
     border: none;
@@ -148,9 +152,6 @@ nav ul.lavaLamp li a {
     color: #fff;
 }
 
-#about {
-    padding-top: 3em;
-}
 #about ul.imagetxt {
     list-style-type: none;
     display: block;
