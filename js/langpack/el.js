@@ -13,8 +13,8 @@ jquery_lang_js.prototype.lang.el = {
 	'Contact':'Επικοινωνια',
 	'Name<span>*</span>':'Όνομα<span>*</span>',
 	'Email<span>*</span>':'Email<span>*</span>',
-	'Message':'Μήνυμα',
+	'Message ':'Μήνυμα ',
 	'Send':'Αποστολή',
-	'Reset':'Εκκαθάριση',
-	'<span>*</span> Required fields':'<span>*</span> Απαραίτητα πεδία',
+	'Clear':'Εκκαθάριση',
+	'<span class="req">*</span> Required fields':'<span class="req">*</span> Απαραίτητα πεδία',
 }
