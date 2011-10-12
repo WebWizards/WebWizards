@@ -7,6 +7,8 @@ body {
     width: 90%;
     font: 1em "Helvetica Neue", Helvetica, "trebuchet ms", Geneva, sans-serif;
     margin: 0 auto; 
+	background-color: #062851;
+    color: #E7E5E9;
 }
 h1 {
     font-size: 1.75em;
@@ -44,6 +46,10 @@ p {
 noscript p {
     font-size: 1.2em !important;
     text-align: center !important;
+}
+
+noscript p a {
+	color: #1C140D !important;
 }
 
 header {

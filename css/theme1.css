@@ -2,36 +2,12 @@
    
 }
 body {
-    background-color:#e6e6e6;
+    background-color:#efefef;
 	color: #1C140D;
-}
-h1 {
-    
-}
-p {
-    
 }
 
 .content h1 {
-    
-}
-.content p {
-    
-}
-.content img {
-}
-.content a {
-    
-}
-.content a:active {
-    
-}
-.content a:focus {
-    
-}
-
-noscript p {
-    
+    text-shadow: #CBE86B 0.04em 0.04em 0.1em;
 }
 
 header {
@@ -46,50 +22,11 @@ header .link{
 header .link:hover {
     
 }
-header .slider-wrapper {
-    
-}
-header #slider {
-    
-}
-#menu {
-
-}
-#menu.abs {
-    
-}
-#menu.fixed {
-    
-}
 
 nav ul.lavaLamp {
     border: 1px solid #CBE86B;
 }
-nav ul.lavaLamp li {
-    
-}
-nav ul.lavaLamp li.langs {
-    
-}
-nav ul.lavaLamp li.back {
-    
-}
-nav ul.lavaLamp li.back .left {
-    
-}
-nav ul.lavaLamp li:hover {
-    
-}
-nav ul.lavaLamp li a {
-    
-}
 
-#about ul.imagetxt {
-    
-}
-#about ul.imagetxt li {
-    
-}
 #about ul.imagetxt li figure.image {
     border: 4px ridge #CBE86B;
 	-webkit-border-radius:8px;
@@ -97,15 +34,8 @@ nav ul.lavaLamp li a {
 	border-radius:8px;
 }
 
-figure#cookie {
-}
-figure#uber {
-}
-figure#master {
-}
-
 #portofolio p {
-    
+    border: 1px ridge #CBE86B;
 }
 
 #contact label {
