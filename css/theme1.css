@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #CBE86B;
+	background:#CBE86B url("../img/header_vector.png") no-repeat bottom left;
 	border-left:2px ridge #F2E9E1;
 	border-right:2px ridge #F2E9E1;
 	border-bottom:2px ridge #F2E9E1;
