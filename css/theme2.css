@@ -1,0 +1,60 @@
+* {
+   
+}
+body {
+    background-color:#F7F9FE;
+	color: #1C140D;
+}
+
+.content h1 {
+    text-shadow: #8db8c8 0.04em 0.04em 0.1em;
+}
+
+header {
+	background:#BED2D9 url("../img/header_vector.png") no-repeat bottom left;
+	border-left:2px ridge #8db8c8;
+	border-right:2px ridge #8db8c8;
+	border-bottom:2px ridge #8db8c8;
+}
+header .link{
+    
+}
+header .link:hover {
+    
+}
+
+nav ul.lavaLamp {
+    border: 1px solid #8db8c8;
+	background: url("../img/menu_bg2.png") repeat;
+}
+
+#about ul.imagetxt li figure.image {
+    border: 4px ridge #8db8c8;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+
+#portofolio p {
+    border: 1px ridge #8db8c8;
+}
+
+#contact label {
+    
+}
+#contact label, #contact input {
+    
+}
+#contact input, #contact textarea {
+    
+}
+#contact input#submit, #contact input#reset {
+    
+}
+#contact span.req {
+    
+}
+
+footer {
+   
+}
