@@ -66,11 +66,12 @@ header .link:hover {
 }
 header .slider-wrapper {
     margin: 0 auto;
-    width: 618px;
+    width: 628px;
     background: url(nivo_theme_default/loading.gif) no-repeat 50% 50%;
+	display:none;
 }
 header #slider {
-    height: 246px;
+    height: 250px;
 }
 
 #menu {
@@ -209,4 +210,5 @@ figure#master {
 
 footer {
     padding: 1em 0;
+	text-align:center;
 }

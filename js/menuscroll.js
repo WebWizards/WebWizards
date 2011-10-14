@@ -1,9 +1,9 @@
 (function () {
     window.onload = function () {
         var menu = document.getElementById('menu');
-        var init = menu.offsetTop;
-        var fixed = false;
-
+        var init = menu.offsetTop + 250;
+        var fixed = false; 
+		
         window.onscroll = function () {
             if (!fixed && (menu.offsetTop - scrollTop() < 0)) {
                 menu.className = 'fixed';
@@ -16,6 +16,7 @@
             }
         };
     };
+	
 
     function scrollTop() {
         return document.body.scrollTop || document.documentElement.scrollTop;

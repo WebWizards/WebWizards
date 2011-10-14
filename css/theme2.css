@@ -11,16 +11,10 @@ body {
 }
 
 header {
-	background:#BED2D9 url("../img/header_vector.png") no-repeat bottom left;
+	background:#BED2D9 url("../img/header_vector2.png") no-repeat bottom left;
 	border-left:2px ridge #8db8c8;
 	border-right:2px ridge #8db8c8;
 	border-bottom:2px ridge #8db8c8;
-}
-header .link{
-    
-}
-header .link:hover {
-    
 }
 
 nav ul.lavaLamp {
@@ -39,18 +33,6 @@ nav ul.lavaLamp {
     border: 1px ridge #8db8c8;
 }
 
-#contact label {
-    
-}
-#contact label, #contact input {
-    
-}
-#contact input, #contact textarea {
-    
-}
-#contact input#submit, #contact input#reset {
-    
-}
 #contact span.req {
     
 }
