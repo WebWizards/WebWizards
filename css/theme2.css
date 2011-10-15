@@ -18,15 +18,15 @@ header {
 }
 
 nav ul.lavaLamp {
-    border: 1px solid #8db8c8;
+    	border: 1px solid #8db8c8;
 	background: url("../img/menu_bg2.png") repeat;
 }
 
 #about ul.imagetxt li figure.image {
-    border: 4px ridge #8db8c8;
-	-webkit-border-radius:8px;
-	-moz-border-radius:8px;
-	border-radius:8px;
+    	border: 4px ridge #8db8c8;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
 }
 
 #portofolio p {
