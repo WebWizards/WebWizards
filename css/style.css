@@ -204,6 +204,7 @@ figure#master {
 }
 #contact textarea {
     width:90%;
+    overflow:auto;
 }
 #contact input#submit, #contact input#reset {
     margin: 0 1em 0 0;
