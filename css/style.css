@@ -26,6 +26,7 @@ p {
     padding-top: 2.25em;
 }
 .content p {
+    min-width: 38em;
     text-indent: 1em;
     text-align: justify;
     margin: 1em .75em 0;
@@ -53,9 +54,10 @@ noscript p a {
 }
 
 header {
+    min-width: 40em;
     position: relative;
     margin: 0 auto;
-	padding: 2em 0;
+    padding: 2em 0;
 }
 header .link{
     color: #E9E5E7;
@@ -200,6 +202,9 @@ figure#master {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
+#contact textarea {
+    width:90%;
+}
 #contact input#submit, #contact input#reset {
     margin: 0 1em 0 0;
     padding: .25em .5em;
@@ -210,5 +215,5 @@ figure#master {
 
 footer {
     padding: 1em 0;
-	text-align:center;
+    text-align:center;
 }
