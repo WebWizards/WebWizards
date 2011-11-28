@@ -157,6 +157,9 @@ nav ul.lavaLamp li a {
     text-align: center;
     color: #fff;
 }
+#about ul {
+    margin:1em 3em 1em 3em;
+}
 
 #about ul.imagetxt {
     list-style-type: none;
