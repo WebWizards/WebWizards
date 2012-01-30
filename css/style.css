@@ -181,13 +181,13 @@ nav ul.lavaLamp li a {
 }
 
 figure#cookie {
-    background: url("http://www.gravatar.com/avatar/38724afecdd465e2b8bb03e7a2d06176.jpg") no-repeat;
+    background: url("http://www.gravatar.com/avatar/38724afecdd465e2b8bb03e7a2d06176") no-repeat;
 }
 figure#uber {
-    background: url("http://www.gravatar.com/avatar/ede194ad58e859be764905ea4f120bda.jpg") no-repeat;
+    background: url("http://www.gravatar.com/avatar/ede194ad58e859be764905ea4f120bda") no-repeat;
 }
 figure#master {
-    background: url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd.jpg") no-repeat;
+    background: url("http://www.gravatar.com/avatar/cede7ff53d51bb1a9b76669ec62153cd") no-repeat;
 }
 
 #portofolio p {
